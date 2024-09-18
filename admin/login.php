@@ -33,6 +33,6 @@ if (isset($_POST['login'])) {
 
     // Query to check credentials
     $result = $conn->query("SELECT * FROM admin WHERE email = '$email' AND password = '$password'");
-     echo $result->num_rows > 0 ? header('Location:index.html') : "<script>alert('Invalid email or password')</script>";
+     echo $result->num_rows > 0 ? header('Location:index.php') : "<script>alert('Invalid email or password')</script>";
 }
 ?>
