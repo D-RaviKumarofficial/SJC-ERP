@@ -9,12 +9,12 @@
           <div class="profile-desc">
             <div class="profile-pic">
               <div class="count-indicator">
-                <img class="img-xs rounded-circle " src="assets/images/faces/face15.jpg" alt="">
+                <img class="img-xs rounded-circle " src="../images/user.jp  g" alt="">
                 <span class="count bg-success"></span>
               </div>
               <div class="profile-name">
-                <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
-                <span>Gold Member</span>
+                <h5 class="mb-0 font-weight-normal">Karthika</h5>
+                <span>Developer</span>
               </div>
             </div>
             <a href="#" id="profile-dropdown" data-bs-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -59,11 +59,11 @@
           <span class="nav-link">Navigation</span>
         </li>
         <li class="nav-item menu-items">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="stu_Details.php">
             <span class="menu-icon">
               <i class="mdi mdi-speedometer"></i>
             </span>
-            <span class="menu-title">Dashboard</span>
+            <span class="menu-title">Students Details</span>
           </a>
         </li>
         <li class="nav-item menu-items">
@@ -71,14 +71,13 @@
             <span class="menu-icon">
               <i class="mdi mdi-laptop"></i>
             </span>
-            <span class="menu-title">Basic UI Elements</span>
+            <span class="menu-title">Events</span>
             <i class="menu-arrow"></i>
           </a>
           <div class="collapse" id="ui-basic">
             <ul class="nav flex-column sub-menu">
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Techextra</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dhamaka</a></li>
             </ul>
           </div>
         </li>
@@ -87,7 +86,7 @@
             <span class="menu-icon">
               <i class="mdi mdi-playlist-play"></i>
             </span>
-            <span class="menu-title">Form Elements</span>
+            <span class="menu-title">Industrial Visit</span>
             <i class="menu-arrow"></i>
           </a>
         </li>
@@ -96,7 +95,7 @@
             <span class="menu-icon">
               <i class="mdi mdi-table-large"></i>
             </span>
-            <span class="menu-title">Tables</span>
+            <span class="menu-title">Staff's Time Table</span>
             <i class="menu-arrow"></i>
           </a>
         </li>
