@@ -21,6 +21,10 @@
         <li><a href>Parents</a></li>
         <li><a href>Staff</a></li>
         <li><a href>Events</a></li>
+        <ul>
+         <li><a href>HOME</a></li>  
+         <li><a href>Students</a></li> 
+        </ul>
         <li><a href>News</a></li>
          </ul>
         </div>
