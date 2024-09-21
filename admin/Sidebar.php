@@ -13,14 +13,8 @@
                 <span class="count bg-success"></span>
               </div>
               <div class="profile-name">
-<<<<<<< HEAD
-                <h5 class="mb-0 font-weight-normal">Karthiga Kummuta</h5>
-                <span>Gold Member</span>
-=======
                 <h5 class="mb-0 font-weight-normal">Karthika</h5>
-                <span>Developer</span>
->>>>>>> 6fd7f8d0e6e6666d87ef4abc4a7d35a9c04e7e3c
-              </div>
+                <span>Gold Member</span>           
             </div>
             <a href="#" id="profile-dropdown" data-bs-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
             <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list"
@@ -68,11 +62,7 @@
             <span class="menu-icon">
               <i class="mdi mdi-speedometer"></i>
             </span>
-<<<<<<< HEAD
-            <span class="menu-title">Students</span>
-=======
             <span class="menu-title">Students Details</span>
->>>>>>> 6fd7f8d0e6e6666d87ef4abc4a7d35a9c04e7e3c
           </a>
         </li>
         <li class="nav-item menu-items">

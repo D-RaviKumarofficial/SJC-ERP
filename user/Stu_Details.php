@@ -3,42 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Retrieve Data by ID</title>
+  <title>Retrieve Data by Roll No</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      background-color: #fff;
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 1rem 1rem 0 0;
+      font-size: 1.25rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem;
+    }
+    .form-group label {
+      font-weight: bold;
+      color: #495057;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #004085;
+    }
+    .table {
+      margin-top: 2rem;
+    }
+    .table th {
+      background-color: #007bff;
+      color: white;
+    }
+    .alert {
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <div class="container mt-5">
-    <h2 class="text-center mb-4">Retrieve Student Data by ID</h2>
-    <form action="retrieve.php" method="POST">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <div class="form-group mb-3">
-            <label for="id">Enter ID:</label>
-            <input type="number" name="id" class="form-control" id="id" placeholder="Enter ID" required>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">
+            Retrieve Student Data by Roll No
           </div>
-          <div class="form-group text-center">
-            <button type="submit" class="btn btn-primary">Search</button>
+          <div class="card-body">
+            <form action="#" method="POST">
+              <div class="form-group mb-4">
+                <label for="roll_no">Enter Roll No:</label>
+                <input type="text" name="roll_no" class="form-control form-control-lg" id="roll_no" placeholder="Enter Roll No" required>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </form>
+    </div>
   </div>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 <?php
 include "../DB/connection.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id = $_POST['id'];
+    $roll_no = $_POST['roll_no'];
 
-    // Prepare the SQL query to retrieve the data by ID
-    $sql = "SELECT * FROM students WHERE id = ?";
+    // Prepare the SQL query to retrieve the data by roll_no
+    $sql = "SELECT * FROM students WHERE roll_no = ?";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("i", $id);
+    $stmt->bind_param("s", $roll_no); // "s" denotes a string type
     $stmt->execute();
     $result = $stmt->get_result();
 
@@ -49,6 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo '<table class="table table-bordered">';
         echo '<thead><tr>
                 <th>ID</th>
+                <th>Roll No</th>
                 <th>Name</th>
                 <th>Date of Birth</th>
                 <th>Email</th>
@@ -63,6 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         while ($row = $result->fetch_assoc()) {
             echo '<tr>';
             echo '<td>' . $row['id'] . '</td>';
+            echo '<td>' . $row['roll_no'] . '</td>';
             echo '<td>' . $row['name'] . '</td>';
             echo '<td>' . $row['dob'] . '</td>';
             echo '<td>' . $row['email'] . '</td>';
@@ -77,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo '</tbody></table>';
         echo '</div>';
     } else {
-        echo '<div class="container mt-5"><div class="alert alert-danger">No record found for ID ' . $id . '.</div></div>';
+        echo '<div class="container mt-5"><div class="alert alert-danger text-center">No record found for Roll No ' . $roll_no . '.</div></div>';
     }
 
     $stmt->close();

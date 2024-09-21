@@ -19,8 +19,6 @@
   <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.theme.default.min.css">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <!-- endinject -->
-  <!-- Layout styles -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- End layout styles -->
   <link rel="shortcut icon" href="assets/images/favicon.png" />
@@ -39,10 +37,14 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Student Information Form</h4>
-                  <form action="#" method="POST" class="forms-sample">
+                  <form action="" method="POST" class="forms-sample">
                     <div class="form-group">
-                      <label for="id">ROll NO</label>
+                      <label for="id">ID</label>
                       <input type="text" class="form-control" id="id" name="id" placeholder="Enter your ID" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="roll_no">Roll No</label>
+                      <input type="text" class="form-control" id="roll_no" name="roll_no" placeholder="Enter your Roll No" required>
                     </div>
                     <div class="form-group">
                       <label for="name">Name</label>
@@ -92,12 +94,14 @@
 </body>
 
 </html>
+
 <?php
 include "../DB/connection.php";
 
 // Capture form data
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST['id'];
+    $roll_no = $_POST['roll_no'];
     $name = $_POST['name'];
     $dob = $_POST['dob'];
     $email = $_POST['email'];
@@ -108,8 +112,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $area_of_interest = $_POST['area_of_interest'];
 
     // Prepare and bind
-    $stmt = $conn->prepare("INSERT INTO students (id, name, dob, email, previous_degree, address, sports, extra_activities, area_of_interest) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
-    $stmt->bind_param("issssssss", $id, $name, $dob, $email, $previous_degree, $address, $sports, $extra_activities, $area_of_interest);
+    $stmt = $conn->prepare("INSERT INTO students (id, roll_no, name, dob, email, previous_degree, address, sports, extra_activities, area_of_interest) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    $stmt->bind_param("isssssssss", $id, $roll_no, $name, $dob, $email, $previous_degree, $address, $sports, $extra_activities, $area_of_interest);
 
     if ($stmt->execute()) {
         echo "<script>
@@ -123,5 +127,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
 }
 
-$conn->close();
 ?>
