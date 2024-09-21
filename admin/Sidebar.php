@@ -9,12 +9,17 @@
           <div class="profile-desc">
             <div class="profile-pic">
               <div class="count-indicator">
-                <img class="img-xs rounded-circle " src="assets/images/faces/face15.jpg" alt="">
+                <img class="img-xs rounded-circle " src="../images/user.jp  g" alt="">
                 <span class="count bg-success"></span>
               </div>
               <div class="profile-name">
+<<<<<<< HEAD
                 <h5 class="mb-0 font-weight-normal">Karthiga Kummuta</h5>
                 <span>Gold Member</span>
+=======
+                <h5 class="mb-0 font-weight-normal">Karthika</h5>
+                <span>Developer</span>
+>>>>>>> 6fd7f8d0e6e6666d87ef4abc4a7d35a9c04e7e3c
               </div>
             </div>
             <a href="#" id="profile-dropdown" data-bs-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
@@ -59,11 +64,15 @@
           <span class="nav-link">Navigation</span>
         </li>
         <li class="nav-item menu-items">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="stu_Details.php">
             <span class="menu-icon">
               <i class="mdi mdi-speedometer"></i>
             </span>
+<<<<<<< HEAD
             <span class="menu-title">Students</span>
+=======
+            <span class="menu-title">Students Details</span>
+>>>>>>> 6fd7f8d0e6e6666d87ef4abc4a7d35a9c04e7e3c
           </a>
         </li>
         <li class="nav-item menu-items">
@@ -76,9 +85,14 @@
           </a>
           <div class="collapse" id="ui-basic">
             <ul class="nav flex-column sub-menu">
+<<<<<<< HEAD
               <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">TechXtra</a></li>
               <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Damaka</a></li>
               <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Hello World</a></li>
+=======
+              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Techextra</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dhamaka</a></li>
+>>>>>>> 6fd7f8d0e6e6666d87ef4abc4a7d35a9c04e7e3c
             </ul>
           </div>
         </li>
@@ -87,7 +101,7 @@
             <span class="menu-icon">
               <i class="mdi mdi-playlist-play"></i>
             </span>
-            <span class="menu-title">Form Elements</span>
+            <span class="menu-title">Industrial Visit</span>
             <i class="menu-arrow"></i>
           </a>
         </li>
@@ -96,7 +110,7 @@
             <span class="menu-icon">
               <i class="mdi mdi-table-large"></i>
             </span>
-            <span class="menu-title">Tables</span>
+            <span class="menu-title">Staff's Time Table</span>
             <i class="menu-arrow"></i>
           </a>
         </li>

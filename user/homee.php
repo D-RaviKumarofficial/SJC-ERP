@@ -16,10 +16,17 @@
         <div class="nav-links" id="navLinks">
         <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>  
         <ul>
+<<<<<<< HEAD
         <li><a href = "homee.php">HOME</a></li>  
         <li><a href = "about.php">ABOUT</a></li> 
         <li><a href = "course.php">COURSE</a></li>
         <li><a href>MSC.IT</a></li>
+=======
+        <li><a href>HOME</a></li>  
+        <li><a href>ABOUT</a></li> 
+        <li><a href>COURSE</a></li>
+        <li><a href = "Stu_Details.php">MSC.IT</a></li>
+>>>>>>> 6fd7f8d0e6e6666d87ef4abc4a7d35a9c04e7e3c
         <li><a href>GALLERY</a></li>
         <li><a href>CONTACT</a></li>
          </ul>
