@@ -7,6 +7,8 @@
     
     <link rel="stylesheet" href="../css/abouts.css" class="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
@@ -35,33 +37,35 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31249.60569477263!2d79.74607544623096!3d11.750906178361666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a549888444e5d9d%3A0x6aa2c2d991f57236!2sCuddalore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1726824389255!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
+<!-- Contact Information Section -->
 <section class="contact-us">
-<div class="row">
-    <div class="contact-col">
-    <div>
-    <i class="fa-solid fa-house"></i>
-     <span>
-        <h5>xyz Road,ABC Building</h5>
-        <p>Cuddalore,TAMILNADU</p>
-    </span>
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col-md-4 contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Cuddalore, Tamil Nadu</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>2345678899</h5>
+                        <p>Monday to Saturday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <span>
+                        <h5>info@website.com</h5>
+                        <p>Email Us for Inquiries</p>
+                    </span>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-    <i class="fa-solid fa-phone"></i>
-     <span>
-        <h5>2345678899</h5>
-        <p>monday to saturday</p>
-    </span>
-    </div>
-    <div>
-    <i class="fa-solid fa-envelope-open-text"></i>
-     <span>
-        <h5>xyz Road,ABC Building</h5>
-        <p>Cuddalore,TAMILNADU</p>
-    </span>
-    </div>
-    </div>
-    <div class="contact-col"></div>
-</div>
 </section>
 
 
