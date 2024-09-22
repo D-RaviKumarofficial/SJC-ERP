@@ -20,9 +20,7 @@
         <li><a href = "about.php">ABOUT</a></li> 
         <li><a href = "course.php">COURSE</a></li>
         <li><a href ="Stu_Details.php">MSC.IT</a></li>
-        <li><a href>HOME</a></li>  
-        <li><a href>ABOUT</a></li> 
-        <li><a href>COURSE</a></li>
+        
          </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
