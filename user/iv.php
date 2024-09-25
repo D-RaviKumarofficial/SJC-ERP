@@ -36,12 +36,12 @@
         }
 
         .glass-section {
-            background: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            /* background: rgba(255, 255, 255, 0.1)/; */
+            /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.18);
+            border: 1px solidrgba(0, 0, 0, 0.74);
             padding: 30px;
             margin: 20px 0;
             color: #fff;
@@ -152,7 +152,7 @@
                 </ul>
             </div>
             <div class="image-box">
-                <img src="../images/us.jpeg" alt="Kashiv InfoTech Office">
+                <img src="../images/kashiv.jpg" alt="Kashiv InfoTech Office">
             </div>
         </div>
     </div>
@@ -179,6 +179,9 @@
         <h2>Our Gallery</h2>
         <div class="experience-content">
             <div class="image-box">
+                <img src="../images/zoo.jpg" alt="Group Photo at Zoo">
+                <img src="../images/zoo.jpg" alt="Group Photo at Zoo">
+                <img src="../images/zoo.jpg" alt="Group Photo at Zoo">
                 <img src="../images/zoo.jpg" alt="Group Photo at Zoo">
                 <img src="../images/zoo.jpg" alt="Group Photo at Zoo">
             </div>
