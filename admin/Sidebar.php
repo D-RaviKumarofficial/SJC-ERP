@@ -66,25 +66,14 @@
           </a>
         </li>
         <li class="nav-item menu-items">
-          <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+          <a class="nav-link"  href="Stu_Marks.php" >
             <span class="menu-icon">
               <i class="mdi mdi-laptop"></i>
             </span>
-            <span class="menu-title">Events</span>
+            <span class="menu-title">Students Marks</span>
             <i class="menu-arrow"></i>
           </a>
-          <div class="collapse" id="ui-basic">
-            <ul class="nav flex-column sub-menu">
-<<<<<<< HEAD
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">TechXtra</a></li>
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Damaka</a></li>
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Hello World</a></li>
-=======
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Techextra</a></li>
-              <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dhamaka</a></li>
->>>>>>> 6fd7f8d0e6e6666d87ef4abc4a7d35a9c04e7e3c
-            </ul>
-          </div>
+         
         </li>
         <li class="nav-item menu-items">
           <a class="nav-link" href="pages/forms/basic_elements.html">
@@ -150,3 +139,4 @@
         </li>
       </ul>
     </nav>
+    
