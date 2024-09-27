@@ -19,7 +19,10 @@
         <li><a href = "homee.php">HOME</a></li>  
         <li><a href = "about.php">ABOUT</a></li> 
         <li><a href = "course.php">COURSE</a></li>
-        <li><a href ="Stu_Details.php">MSC.IT</a></li>
+        <li><a href = "events.php">Events</a></li>
+        <li><a href = "iv.php">IV</a></li>
+        <li><a href ="Stu_Details.php">Students Data</a></li>
+        <li><a href ="Stu_Narks.php">Students Marks</a></li>
         
          </ul>
         </div>
