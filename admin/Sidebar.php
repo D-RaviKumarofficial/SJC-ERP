@@ -76,11 +76,11 @@
          
         </li>
         <li class="nav-item menu-items">
-          <a class="nav-link" href="pages/forms/basic_elements.html">
+          <a class="nav-link" href="Staffs.php">
             <span class="menu-icon">
               <i class="mdi mdi-playlist-play"></i>
             </span>
-            <span class="menu-title">Industrial Visit</span>
+            <span class="menu-title">Staff details</span>
             <i class="menu-arrow"></i>
           </a>
         </li>
