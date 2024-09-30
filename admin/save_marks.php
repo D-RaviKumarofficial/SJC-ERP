@@ -7,7 +7,8 @@ ini_set('display_errors', 1);
 include "../DB/connection.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $names = ['Student 1', 'Student 2', 'Student 3', 'Student 4', 'Student 5', 'Student 6', 'Student 7', 'Student 8', 'Student 9', 'Student 10', 'Student 11', 'Student 12', 'Student 13', 'Student 14', 'Student 15', 'Student 16', 'Student 17', 'Student 18'];
+  $names = ['Jerin Sujith A', 'Karthika.E', 'Masiga Thabasum.S', 'Snega.R', 'Versha.K', 'Bhuvaneshwaran', 'Nizar', 'Janu', 'Naveen', 'Ravi', 'Sam', 'Santha', 'Vimal', 'Nithish', 'Vaishu', 'Vasanth', 'Suriya', 'Rex'];
+
   
   $first_cia = $_POST['first_cia'];
   $second_cia = $_POST['second_cia'];

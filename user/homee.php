@@ -19,10 +19,10 @@
         <li><a href = "homee.php">HOME</a></li>  
         <li><a href = "about.php">ABOUT</a></li> 
         <li><a href = "course.php">COURSE</a></li>
-        <li><a href = "events.php">Events</a></li>
+        <li><a href = "events.php">EVENTS</a></li>
         <li><a href = "iv.php">IV</a></li>
-        <li><a href ="Stu_Details.php">Students Data</a></li>
-        <li><a href ="Stu_Narks.php">Students Marks</a></li>
+        <li><a href ="Stu_Details.php">StUDENTS DATA</a></li>
+        <li><a href ="Stu_Narks.php">STUDENTS MARKS</a></li>
         
          </ul>
         </div>
@@ -72,7 +72,7 @@
     <p>Campus of St.Joseph's College of Arts and Science(Autonomous) 2024 </p>
     <div class="row">
         <div class="campus-col">
-            <img src="../images/background.jpg" alt="">
+            <img src="../images/SJC.jpEg" alt="">
             <div class="layer">
                 <h3>cuddalore</h3>
             </div>
