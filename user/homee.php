@@ -23,6 +23,9 @@
         <li><a href = "iv.php">IV</a></li>
         <li><a href ="Stu_Details.php">StUDENTS DATA</a></li>
         <li><a href ="Stu_Narks.php">STUDENTS MARKS</a></li>
+        <li><a href ="Stu_Details.php">Students Data</a></li>
+        <li><a href ="Stu_Marks.php">Students Marks</a></li>        
+        <li><a href ="Staffs_details.php">Staffs</a></li>        
         
          </ul>
         </div>

@@ -1,0 +1,15 @@
+Databse :erp
+
+
+
+CREATE TABLE staff (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    year_of_experience INT NOT NULL,
+    dob DATE NOT NULL,
+    address TEXT NOT NULL,
+    qualification VARCHAR(100) NOT NULL,
+    handling_subject VARCHAR(100) NOT NULL,
+    photo VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
